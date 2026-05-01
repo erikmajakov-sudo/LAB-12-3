@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab12 - Animal Image Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Lab 12 - Animal Navigation</h1>
+    <p>Click on an animal in the image to explore</p>
+</header>
+
+<main class="container">
+
+    <!-- IMAGE MAP -->
+    <img src="images/Screenshot 2026-04-30 at 15.42.19.png" alt="Animal Navigation Map" usemap="#animalmap" class="map-image">
+
+    <map name="animalmap">
+
+        <!-- Replace coordinates with ones you pick in Brackets -->
+        <area shape="rect" coords="50,50,200,200" href="lion.html" alt="Lion">
+
+        <area shape="circle" coords="350,150,80" href="tiger.html" alt="Tiger">
+
+        <area shape="rect" coords="500,50,650,200" href="elephant.html" alt="Elephant">
+
+        <area shape="poly" coords="100,300,200,250,300,350,150,400" href="zebra.html" alt="Zebra">
+
+    </map>
+
+</main>
+
+<footer class="footer">
+    <p>Lab12 Image Map Navigation</p>
+</footer>
+
+</body>
+</html>
